@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "akiraExpanded";
+  src: url(../../fonts/akiraExpanded.otf);
+}
+:root {
+  --ff-logo: "akiraExpanded", Helvetica;
+  --ff-normal: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.group {
+  display: flex;
+  height: 547px;
+  color: #fff;
+}
+
+h2 {
+  font-family: var(--ff-logo);
+  font-size: 32px;
+  line-height: 36px;
+}
+
+/* Luart Group Section*/
+
+.luartLeft > .grayBackgroundPanel {
+  width: 564px;
+  height: 549px;
+  background: #2d2d2e;
+  margin-left: 153px;
+}
+
+.luartLeft > .grayBackgroundPanel > img.dashboardImg {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.luartRight {
+  margin: 6em 6.75em;
+}
+
+.luartRight > p {
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.group p:first-child {
+  opacity: 48%;
+}
+
+.group button {
+  color: #fff;
+  margin-top: 4em;
+  padding: 12px 24px;
+  background: #212121;
+  mix-blend-mode: screen;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 4px;
+}
+
+.group button > img {
+  padding-left: 1em;
+}
+
+/* Croswap Group Section */
+
+.croswapRight > .grayBackgroundPanel {
+  width: 564px;
+  height: 549px;
+  background: #2d2d2e;
+  margin-right: 153px;
+}
+
+.croswapRight > .grayBackgroundPanel img.earnImg {
+  width: 508px;
+}
+
+.croswapLeft {
+  margin: 6em 6.75em;
+}
+
+/* Terra Aliens Group Section */
+
+.terraAliensLeft > .grayBackgroundPanel {
+  width: 564px;
+  height: 549px;
+  background: #2d2d2e;
+  margin-left: 153px;
+}
+
+.terraAliensLeft > .grayBackgroundPanel img.aliensImg {
+  width: 508px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.terraAliensRight {
+  margin: 6em 6.75em;
+}
+
+.middleDivider {
+  height: 110%;
+}

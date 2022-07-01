@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "akiraExpanded";
+  src: url(../../fonts/akiraExpanded.otf);
+}
+:root {
+  --ff-akira: "akiraExpanded", Helvetica;
+  --ff-normal: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+  background-image: url(../../images/bg.png);
+}
+
+.intro {
+  margin: 0;
+}
+
+.intro > h2 {
+  margin: 300px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  font-family: var(--ff-akira);
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(86.76deg, #c5bed2 0%, #faf5f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  mix-blend-mode: luminosity;
+}
+
+hr {
+  border: 1px solid #292929;
+}
