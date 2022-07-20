@@ -4,10 +4,11 @@ import "./intro.css";
 const Intro = () => {
   return (
     <div className="intro">
+      <h1>2D & 3D NFT design style & Intuitive DApps.</h1>
       <h2>
-        We build powerful brands & digital experiences. Focussing on
-        the community, the technology & the market to launch your
-        brand's vision for an optimistic new internet.
+        World-class applications with outstanding visuals. Designing
+        real products, solving real problems. Fastly, honestly, with
+        day-to-day contact.
       </h2>
       <hr />
     </div>

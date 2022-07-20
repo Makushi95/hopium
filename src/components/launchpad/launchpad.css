@@ -1,0 +1,23 @@
+.launchpad {
+  text-align: center;
+}
+
+.launchpadText {
+  text-align: left;
+  font-size: 32px;
+  padding: 4em 6em 1em 15%;
+}
+
+.launchpadText > p {
+  font-size: 18px;
+  max-width: 750px;
+  opacity: 48%;
+}
+
+.launchpad > img {
+  margin-bottom: 3em;
+}
+
+.launchpad > img:last-of-type {
+  margin-bottom: 7em;
+}

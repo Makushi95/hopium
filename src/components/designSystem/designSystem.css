@@ -1,0 +1,23 @@
+.designSystem {
+  text-align: center;
+}
+
+.designSystem-text {
+  text-align: left;
+  font-size: 32px;
+  padding: 4em 6em 1em 15%;
+}
+
+.designSystem-text > p {
+  font-size: 18px;
+  max-width: 750px;
+  opacity: 48%;
+}
+
+.designSystem > img {
+  margin-bottom: 3em;
+}
+
+.designSystem > img:last-of-type {
+  margin-bottom: 7em;
+}

@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.footer {
+  background-color: rgba(33, 33, 33, 0.04);
+  background-image: url(../../images/bg.png);
+  text-align: center;
+  padding-bottom: 6em;
+}
+
+.footer h2 {
+  margin: 0;
+  padding-top: 260px;
+  font-family: var(--ff-joyride-WIDE);
+  font-size: 32px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(86.76deg, #c5bed2 0%, #faf5f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  mix-blend-mode: luminosity;
+}
+
+.footer button {
+  padding: 12px 24px;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #212121;
+  color: #fff;
+  mix-blend-mode: screen;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 4px;
+  letter-spacing: -0.02em;
+  margin: 2em;
+}
+
+.footer button:hover,
+.footer button:focus {
+  background-color: rgba(33, 33, 33, 0.8);
+}
+
+.footer .footerGroup {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footerGroup .footerLeft {
+  text-align: left;
+}
+
+.footerLeft > p {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footerLeft > a {
+  font-family: var(--ff-normal);
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.footerRight {
+  display: flex;
+  gap: 6em;
+}
+
+.footerRight a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.footerRight p {
+  padding-bottom: 0.2em;
+}

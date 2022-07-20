@@ -1,0 +1,17 @@
+.others {
+  text-align: center;
+  margin-top: 7em;
+}
+.others > h2 {
+  margin-bottom: 2em;
+}
+
+.othersImages {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.othersImages > img {
+  width: 552px;
+}

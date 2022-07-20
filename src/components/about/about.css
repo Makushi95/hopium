@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "akiraExpanded";
-  src: url(../../fonts/akiraExpanded.otf);
-}
-:root {
-  --ff-akira: "akiraExpanded", Helvetica;
-  --ff-normal: sans-serif;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -20,57 +5,63 @@ body {
 
 .about {
   margin: 0;
+  background-image: url(../../images/bg.png);
 }
 
-.panels {
+.about .panels {
   margin: 0;
-  font-family: var(--ff-akira);
+  font-family: var(--ff-joyride-EXT);
   color: #fff;
-  display: flex;
+  display: grid;
+  grid-template-columns: 49.5% 1px 49.5%;
 }
 
 .panels .left {
-  margin: 214px 159px;
+  margin: 13em 10em;
 }
 
-.panels .left > p {
+.about .panels .left > p {
   margin: 0;
+  font-size: 20px;
   font-family: var(--ff-normal);
-  line-height: 20px;
+  line-height: 27px;
   font-weight: 400;
-  width: 400px;
 }
 
-.panels .left > h2 {
+span.transparentText {
+  opacity: 48%;
+}
+
+.about .panels .left > h2 {
   margin-block: 64px 16px;
 }
 
-.panels .right {
+.about .panels .right {
   font-family: var(--ff-normal);
   font-size: 24px;
+  font-weight: 500;
   line-height: 32px;
   margin: 214px 110px;
 }
-.panels .right > p {
+.about .panels .right p {
   margin: 0;
 }
 
-.lines {
+.about .lines {
   margin-top: 149px;
   display: flex;
   gap: 16px;
 }
 
-.line {
-  width: 64px;
-  background-color: #d9d9d9;
+b.opacityText {
   opacity: 48%;
-}
-
-.line:first-child {
-  opacity: 1;
+  text-decoration: none;
 }
 
 hr {
   margin: 0;
+}
+
+.middleDivider {
+  height: 110%;
 }

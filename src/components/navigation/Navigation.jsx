@@ -1,14 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navigation.css";
-import Hopium from "../../images/Hopium.png";
+import HopiumLogo from "../../images/HopiumLogo.png";
 
 const Navigation = () => {
   return (
     <div className="navigation">
-      <img src={Hopium} alt="logo" />
-      <button type="button" className="buttonFilled">
-        Get in Touch
-      </button>
+      <Link to={"/"}>
+        <img src={HopiumLogo} alt="logo" />
+      </Link>
+      <Link to={"/CaseStudies"}>
+        <button type="button" className="buttonFilled">
+          Get in Touch
+        </button>
+      </Link>
     </div>
   );
 };

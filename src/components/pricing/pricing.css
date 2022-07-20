@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pricing {
+  display: grid;
+  color: #fff;
+  place-items: center;
+  text-align: center;
+}
+
+.pricing h2 {
+  padding-top: 3em;
+  font-size: 32px;
+  line-height: 31px;
+  text-transform: uppercase;
+  font-family: var(--ff-joyride-WIDE);
+  background: linear-gradient(86.76deg, #c5bed2 0%, #faf5f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  mix-blend-mode: luminosity;
+}
+
+.pricing > p {
+  max-width: 750px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
+.pricing > img {
+  margin-bottom: -125px;
+  z-index: 1;
+}
+
+hr {
+  width: 100%;
+  z-index: 0;
+}

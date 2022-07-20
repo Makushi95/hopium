@@ -1,20 +1,25 @@
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 import Navigation from "./components/navigation/Navigation";
-import Title from "./components/title/Title";
-import Intro from "./components/intro/Intro";
-import Products from "./components/products/Products";
-import About from "./components/about/About";
+import Homepage from "./pages/hopmepage/Homepage";
+import CaseStudies from "./pages/CaseStudies";
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <Title />
-      <Intro />
-      <Products />
-      <About />
-    </div>
+    <Router>
+      <div className="app">
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/CaseStudies" element={<CaseStudies />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

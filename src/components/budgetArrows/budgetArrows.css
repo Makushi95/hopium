@@ -1,0 +1,19 @@
+.arrows {
+  margin: 0;
+  display: flex;
+  padding: 4em 10em;
+  justify-content: space-between;
+}
+.arrows > button {
+  display: flex;
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.arrows button > img {
+  padding: 0 16px;
+}

@@ -1,20 +1,28 @@
 import React from "react";
 import "./title.css";
+import { Link } from "react-router-dom";
 
 const Title = () => {
   return (
     <div className="title">
-      <h1>Product Design For Crypto Projects.</h1>
+      <h1>
+        Comprehensive Design Studio For the W
+        <span className="longCharacterALT">e</span>b3 Industry
+      </h1>
       <p>
-        Concealed is a creative digital agency that designs and builds
-        thoughtful digital experiences.
+        GM! Hopium is your partner in digital visualization, bringing
+        cutting-edge DApps, applications and NFTs to life.
       </p>
-      <button type="button" className="buttonFilled">
-        Get In Touch
-      </button>
-      <button type="button" className="buttonTransparent">
-        Case Studies
-      </button>
+      <Link to={"/"}>
+        <button type="button" className="buttonFilled">
+          Let's build WEB3 together 🤝
+        </button>
+      </Link>
+      <Link to={"/CaseStudies"}>
+        <button type="button" className="buttonTransparent">
+          Case Studies
+        </button>
+      </Link>
       <hr />
     </div>
   );

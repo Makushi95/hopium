@@ -1,0 +1,23 @@
+.dapp {
+  text-align: center;
+}
+
+.dappText {
+  text-align: left;
+  font-size: 32px;
+  padding: 4em 6em 1em 15%;
+}
+
+.dappText > p {
+  font-size: 18px;
+  max-width: 750px;
+  opacity: 48%;
+}
+
+.dapp > img {
+  margin-bottom: 3em;
+}
+
+.dapp > img:last-of-type {
+  margin-bottom: 7em;
+}

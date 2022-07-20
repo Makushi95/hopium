@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "JoyrideALT";
+  src: url(./fonts/JoyrideOTF/Joyride-ALT.otf);
+}
+
+@font-face {
+  font-family: "JoyrideEXT";
+  src: url(./fonts/JoyrideOTF/Joyride-EXT.otf);
+}
+
+@font-face {
+  font-family: "JoyrideSTD";
+  src: url(./fonts/JoyrideOTF/Joyride-STD.otf);
+}
+
+@font-face {
+  font-family: "JoyrideWIDE";
+  src: url(./fonts/JoyrideOTF/Joyride-WIDE.otf);
+}
+
+:root {
+  --ff-joyride-ALT: "JoyrideALT", Helvetica;
+  --ff-joyride-EXT: "JoyrideEXT", Helvetica;
+  --ff-joyride-STD: "JoyrideSTD", Helvetica;
+  --ff-joyride-WIDE: "JoyrideWIDE", Helvetica;
+  --ff-normal: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app > * {
+  background-image: url(./images/Background.png);
+}
+
+p {
+  font-family: var(--ff-normal);
+}

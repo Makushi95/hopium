@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "akiraExpanded";
-  src: url(../../fonts/akiraExpanded.otf);
-}
-:root {
-  --ff-akira: "akiraExpanded", Helvetica;
-  --ff-normal: sans-serif;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -21,13 +6,13 @@ body {
 .navigation {
   margin: 0;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 2rem 6rem;
   font-size: 16px;
   line-height: 24px;
   box-sizing: border-box;
   background-color: #1e1e1e;
-  background-image: url(../../images/bg.png);
   mix-blend-mode: luminosity;
 }
 
@@ -38,6 +23,7 @@ body {
 }
 
 .navigation button.buttonFilled {
+  text-decoration: none;
   padding: 12px 24px;
   font-size: 16px;
   line-height: 24px;
@@ -46,4 +32,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
   mix-blend-mode: screen;
+}
+
+.navigation button.buttonFilled:hover,
+.navigation button.buttonFilled:focus {
+  background-color: rgba(33, 33, 33, 0.8);
 }

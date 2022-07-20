@@ -1,0 +1,42 @@
+.head {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.headText {
+  text-align: left;
+  font-size: 32px;
+  padding: 4em 6em 1em 15%;
+}
+
+.headText > h2 {
+  font-family: var(--ff-joyride-EXT);
+  margin: 0;
+}
+
+.headText > p {
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 48%;
+  width: 750px;
+}
+
+.headContainer {
+  display: flex;
+  margin: 6em auto 6em 50%;
+  text-align: left;
+}
+
+.headGroup {
+  margin: 0 3em;
+}
+
+.headGroup > p {
+  margin: 0;
+}
+
+.headGroup > p:first-child {
+  opacity: 48%;
+  margin-bottom: 1rem;
+}

@@ -1,36 +1,21 @@
-@font-face {
-  font-family: "akiraExpanded";
-  src: url(../../fonts/akiraExpanded.otf);
-}
-:root {
-  --ff-logo: "akiraExpanded", Helvetica;
-  --ff-normal: sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .title {
   margin: 0;
   letter-spacing: -2%;
   text-align: center;
   box-sizing: border-box;
   background-color: #1e1e1e;
-  background-image: url(../../images/bg.png);
   mix-blend-mode: luminosity;
 }
 
 .title > h1 {
   margin: 0;
   padding-top: 8rem;
-  font-family: var(--ff-akira);
+  font-family: var(--ff-joyride-EXT);
+  text-transform: uppercase;
   color: #fff;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 68px;
-  line-height: 78px;
-  text-align: center;
+  line-height: 66px;
   background: linear-gradient(86.76deg, #c5bed2 0%, #faf5f0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -48,18 +33,24 @@ body {
   margin-top: 1em;
 }
 
-.title > button.buttonTransparent {
+.title button.buttonTransparent {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
-  background-color: #212121;
+  background-color: #000;
+  mix-blend-mode: screen;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
   margin: 2em 1em 200px;
 }
 
-.title > button.buttonFilled {
+.title button.buttonTransparent:hover,
+.title button.buttonTransparent:focus {
+  background-color: rgba(33, 33, 33, 0.2);
+}
+
+.title button.buttonFilled {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
@@ -67,7 +58,17 @@ body {
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
+  letter-spacing: -0.02em;
   mix-blend-mode: screen;
+}
+
+.title button.buttonFilled:hover,
+.title button.buttonFilled:focus {
+  background-color: rgba(33, 33, 33, 0.8);
+}
+
+span.longCharacterALT {
+  font-family: var(--ff-joyride-ALT);
 }
 
 hr {

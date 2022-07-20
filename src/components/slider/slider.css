@@ -1,0 +1,41 @@
+.slider-text {
+  width: 550px;
+  min-height: 500px;
+
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.slider-steps {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-steps-bar {
+  cursor: pointer;
+  width: 64px;
+  height: 2px;
+  background-color: #6a6a6a;
+  margin: 10px 15px;
+}
+
+.slider-steps-bar-progress {
+  height: 2px;
+  width: 100%;
+}
+
+#active {
+  background-color: #fff;
+  animation: progress-loading infinite 5000ms linear;
+}
+
+@keyframes progress-loading {
+  from {
+    width: 0%;
+  }
+  to {
+    transform: 100%;
+  }
+}
