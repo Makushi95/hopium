@@ -7,7 +7,7 @@
 .headText {
   text-align: left;
   font-size: 32px;
-  padding: 4em 6em 1em 15%;
+  padding: 4em 6em 1em 20%;
 }
 
 .headText > h2 {
@@ -24,7 +24,7 @@
 
 .headContainer {
   display: flex;
-  margin: 6em auto 6em 50%;
+  margin: 6em 15% 6em 48%;
   text-align: left;
 }
 

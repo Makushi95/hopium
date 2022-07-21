@@ -7,7 +7,7 @@ import {
 
 import Navigation from "./components/navigation/Navigation";
 import Homepage from "./pages/hopmepage/Homepage";
-import CaseStudies from "./pages/CaseStudies";
+import CaseStudies from "./pages/caseStudies/CaseStudies";
 
 function App() {
   return (

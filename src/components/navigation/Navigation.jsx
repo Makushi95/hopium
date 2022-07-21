@@ -9,7 +9,7 @@ const Navigation = () => {
       <Link to={"/"}>
         <img src={HopiumLogo} alt="logo" />
       </Link>
-      <Link to={"/CaseStudies"}>
+      <Link to={"/"}>
         <button type="button" className="buttonFilled">
           Get in Touch
         </button>
