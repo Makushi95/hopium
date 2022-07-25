@@ -1,4 +1,6 @@
 import React from "react";
+
+import Navigation from "../../components/navigation/Navigation";
 import Launchpad from "../../components/launchpad/Launchpad";
 import LuartPlatform from "../../components/luartPlatform/LuartPlatform";
 import Colors from "../../components/colors/Colors";
@@ -15,6 +17,7 @@ import FooterCaseStudies from "../../components/footerCaseStudies/FooterCaseStud
 const CaseStudies = () => {
   return (
     <div className="caseStudies">
+      <Navigation />
       <Head />
       <LuartPlatform />
       <Colors />

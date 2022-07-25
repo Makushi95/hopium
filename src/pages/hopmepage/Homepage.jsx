@@ -1,7 +1,7 @@
 import React from "react";
 import "./homepage.css";
 
-import Title from "../../components/title/Title";
+import Hero from "../../components/hero/Hero";
 import Intro from "../../components/intro/Intro";
 import Products from "../../components/products/Products";
 import About from "../../components/about/About";
@@ -11,7 +11,7 @@ import Footer from "../../components/footer/Footer";
 const Homepage = () => {
   return (
     <div className="homepage">
-      <Title />
+      <Hero />
       <Intro />
       <Products />
       <About />

@@ -10,9 +10,7 @@ const Navigation = () => {
         <img src={HopiumLogo} alt="logo" />
       </Link>
       <Link to={"/"}>
-        <button type="button" className="buttonFilled">
-          Get in Touch
-        </button>
+        <button type="button">Get in Touch</button>
       </Link>
     </div>
   );

@@ -4,6 +4,7 @@ body {
 }
 
 .navigation {
+  z-index: 1;
   margin: 0;
   display: flex;
   align-items: center;
@@ -12,7 +13,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   box-sizing: border-box;
-  background-color: #1e1e1e;
+  background-color: transparent;
   mix-blend-mode: luminosity;
 }
 
@@ -22,19 +23,19 @@ body {
   opacity: 0.8;
 }
 
-.navigation button.buttonFilled {
-  text-decoration: none;
+.navigation > a > button {
   padding: 12px 24px;
-  font-size: 16px;
-  line-height: 24px;
-  background-color: #212121;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: transparent;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
+  letter-spacing: -0.02em;
   mix-blend-mode: screen;
 }
 
-.navigation button.buttonFilled:hover,
-.navigation button.buttonFilled:focus {
-  background-color: rgba(33, 33, 33, 0.8);
+.navigation button:hover,
+.navigation button:focus {
+  background-color: rgba(33, 33, 33, 0.4);
 }

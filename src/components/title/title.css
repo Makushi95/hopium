@@ -1,9 +1,10 @@
 .title {
+  z-index: -1;
   margin: 0;
   letter-spacing: -2%;
   text-align: center;
   box-sizing: border-box;
-  background-color: #1e1e1e;
+  background-color: transparent;
   mix-blend-mode: luminosity;
 }
 
@@ -45,12 +46,12 @@
   margin: 2em 1em 200px;
 }
 
-.title button.buttonTransparent:hover,
-.title button.buttonTransparent:focus {
+.title > a > button.buttonTransparent:hover,
+.title > a > button.buttonTransparent:focus {
   background-color: rgba(33, 33, 33, 0.2);
 }
 
-.title button.buttonFilled {
+.title > a > button.buttonFilled {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;

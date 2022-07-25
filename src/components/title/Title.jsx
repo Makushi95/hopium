@@ -1,10 +1,30 @@
 import React from "react";
 import "./title.css";
 import { Link } from "react-router-dom";
+import Navigation from "../navigation/Navigation";
+import BackgroundVideo from "../../images/videoBackgroundHero.mp4";
 
 const Title = () => {
   return (
     <div className="title">
+      <video
+        id="background-video"
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "38%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "0",
+        }}>
+        <source src={BackgroundVideo} type="video/mp4" />
+      </video>
+      <Navigation />
       <h1>
         Comprehensive Design Studio For the W
         <span className="longCharacterALT">e</span>b3 Industry
