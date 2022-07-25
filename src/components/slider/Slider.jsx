@@ -19,7 +19,7 @@ export const Slider = () => {
 
         return prevState + 1;
       });
-    }, 5000);
+    }, 8000);
 
     return () => {
       clearTimeout(visibilityTimer);

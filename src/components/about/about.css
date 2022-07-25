@@ -47,12 +47,6 @@ span.transparentText {
   margin: 0;
 }
 
-.about .lines {
-  margin-top: 149px;
-  display: flex;
-  gap: 16px;
-}
-
 b.opacityText {
   opacity: 48%;
   text-decoration: none;

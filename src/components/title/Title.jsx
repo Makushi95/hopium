@@ -13,14 +13,15 @@ const Title = () => {
         loop
         muted
         style={{
+          opacity: "0.3",
           position: "absolute",
           width: "100%",
           left: "50%",
           top: "38%",
-          height: "100%",
+          height: "125%",
           objectFit: "cover",
           transform: "translate(-50%, -50%)",
-          zIndex: "0",
+          zIndex: "-1",
         }}>
         <source src={BackgroundVideo} type="video/mp4" />
       </video>

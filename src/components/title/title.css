@@ -1,16 +1,16 @@
 .title {
-  z-index: -1;
+  z-index: 1;
   margin: 0;
   letter-spacing: -2%;
   text-align: center;
   box-sizing: border-box;
   background-color: transparent;
-  mix-blend-mode: luminosity;
+  mix-blend-mode: screen;
 }
 
 .title > h1 {
   margin: 0;
-  padding-top: 8rem;
+  padding-top: 12rem;
   font-family: var(--ff-joyride-EXT);
   text-transform: uppercase;
   color: #fff;
@@ -31,19 +31,19 @@
   line-height: 32px;
   font-weight: 500;
   line-height: 32px;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .title button.buttonTransparent {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
-  background-color: #000;
+  background-color: transparent;
   mix-blend-mode: screen;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
-  margin: 2em 1em 200px;
+  margin: 4em 1em 245px;
 }
 
 .title > a > button.buttonTransparent:hover,

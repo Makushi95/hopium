@@ -37,5 +37,5 @@ body {
 
 .navigation button:hover,
 .navigation button:focus {
-  background-color: rgba(33, 33, 33, 0.4);
+  background-color: rgba(33, 33, 33, 0.2);
 }
