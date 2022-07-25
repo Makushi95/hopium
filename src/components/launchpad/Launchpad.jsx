@@ -1,26 +1,30 @@
 import React from "react";
 import "./launchpad.css";
-import Luart002a from "../../images/Luart002a.jpg";
-import Luart003a from "../../images/Luart003a.png";
-import Luart004a from "../../images/Luart004a.png";
+import LaunchpadImg1 from "../../images/Launchpad1.png";
+import LaunchpadImg2 from "../../images/Launchpad2.png";
 
 const Launchpad = () => {
   return (
     <div className="launchpad">
-      <div className="launchpadText">
+      <div className="groupText">
         <h2>NFT Launchpad</h2>
         <p>
-          Luart is the first gamified NFT platform that will bring a
-          seamless, all-in-one experience to the Terra Ecosystem, for
-          creators and LUNAtics alike. Providing them benefit not only
-          from participating in the expanding universe of Terra NFTs,
-          but also as a user of Luart's unique marketplace.
+          The launchpad service is a program led by experienced crypto
+          entities that incubate early-stage startups, providing
+          know-how, connections and marketing support. Crypto
+          Launchpad is an evergreen product because there will always
+          be new projects that want to launch, so delivering a great
+          user experience is critical to staying on the market with
+          your LP.
+        </p>
+        <p>
+          By delivering the seamless NFT minting experience for the
+          Luart Launchpad, 19 projects used the incubation service,
+          onboarding 58k people into the Terra Ecosystem.
         </p>
       </div>
-      <img src={Luart002a} alt="Luart" />
-      <img src={Luart003a} alt="Luart" />
-      <img src={Luart004a} alt="Luart" />
-      <hr />
+      <img src={LaunchpadImg1} />
+      <img src={LaunchpadImg2} />
     </div>
   );
 };

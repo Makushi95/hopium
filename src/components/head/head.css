@@ -1,13 +1,14 @@
 .head {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .headText {
   text-align: left;
   font-size: 32px;
-  padding: 4em 6em 1em 20%;
+  width: 1200px;
+  margin: auto;
+  padding: 4em 0 1em 0;
 }
 
 .headText > h2 {
@@ -19,24 +20,45 @@
   font-size: 24px;
   line-height: 32px;
   opacity: 48%;
-  width: 750px;
+  width: 700px;
+  padding-bottom: 2em;
 }
 
 .headContainer {
   display: flex;
-  margin: 6em 15% 6em 48%;
+  margin-top: -12em;
+  margin-bottom: 5em;
+}
+
+.headContainer > img {
+  margin-left: -450px;
+}
+
+.headInfo-container {
+  display: flex;
   text-align: left;
 }
 
 .headGroup {
+  margin-top: 16em;
+  margin-left: -12em;
+  overflow: hidden;
+}
+
+.headGroup > img {
+  margin-top: -20em;
+  margin-left: -14em;
+}
+
+.groupItem {
   margin: 0 3em;
 }
 
-.headGroup > p {
+.groupItem > p {
   margin: 0;
 }
 
-.headGroup > p:first-child {
+.groupItem > p:first-child {
   opacity: 48%;
   margin-bottom: 1rem;
 }

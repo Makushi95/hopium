@@ -1,0 +1,17 @@
+.timeline {
+  overflow: hidden;
+}
+
+.timeline > .groupText {
+  width: 1400px;
+  margin: auto;
+}
+
+.timeline .groupText > p {
+  width: 950px;
+}
+
+.timeline > img:last-child {
+  margin-top: 3em;
+  width: 100%;
+}

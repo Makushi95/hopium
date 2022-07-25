@@ -1,6 +1,7 @@
 import React from "react";
 import "./head.css";
-import Analytics from "../../images/LuartAnalitycs.png";
+import Dashboard from "../../images/2JPEG.png";
+import Leaderboard from "../../images/1 JPEG.png";
 
 const Head = () => {
   return (
@@ -15,21 +16,28 @@ const Head = () => {
         </p>
       </div>
       <div className="headContainer">
-        <div className="headGroup groupLeft">
-          <p>Client:</p>
-          <p>Luart.io</p>
-        </div>
-        <div className="headGroup groupMiddle">
-          <p>Year:</p>
-          <p>2021 — 2022</p>
-        </div>
-        <div className="headGroup groupRight">
-          <p>Services</p>
-          <p>Branding // UI Design</p>
-          <p>UX Analysis // Design System</p>
+        <img src={Dashboard} />
+        <div className="headGroup">
+          <div className="headInfo-container">
+            <div className="groupItem">
+              <p>Client:</p>
+              <p>Luart.io</p>
+            </div>
+            <div className="groupItem">
+              <p>Year:</p>
+              <p>2021 — 2022</p>
+            </div>
+            <div className="groupItem">
+              <p>Services</p>
+              <p>Branding // UI Design</p>
+              <p>UX Analysis // Design System</p>
+            </div>
+          </div>
+          <img src={Leaderboard} />
         </div>
       </div>
-      <img src={Analytics} alt="Analytics" />
+
+      <hr />
     </div>
   );
 };

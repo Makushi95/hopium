@@ -6,7 +6,7 @@ import Graph from "../../images/Graph1111.png";
 const Budget = () => {
   return (
     <div className="budget">
-      <BudgetArrows />
+      {/* <BudgetArrows /> */}
       <div className="budgetText">
         <h2>Luart Budget</h2>
         <p>
@@ -18,7 +18,6 @@ const Budget = () => {
         </p>
       </div>
       <img src={Graph} alt="" />
-      <hr />
     </div>
   );
 };

@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+.luartPlatform {
+  text-align: center;
+}
+
+.luartPlatform > img {
+  width: 100%;
+}
+
+.luartPlatform > h2 {
+  margin-top: 3em;
+}
+
+.imgGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.imgGroup > img {
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+.textGroup {
+  display: flex;
+  width: 1200px;
+  margin: 0.5em auto;
+}
+
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: var(--ff-joyride-EXT);
+}
+
+.textGroup p {
+  opacity: 48%;
+}
+
+.textItem-left {
+  margin-right: 2em;
+  padding: 1em;
+  text-align: left;
+  border: 0.484536px solid #454647;
+  border-radius: 7.75258px;
+}
+
+.textItem-middle {
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 1em;
+  text-align: left;
+  border: 0.484536px solid #454647;
+  border-radius: 7.75258px;
+}
+
+.textItem-right {
+  margin-left: 2em;
+  padding: 1em;
+  text-align: left;
+  border: 0.484536px solid #454647;
+  border-radius: 7.75258px;
+}

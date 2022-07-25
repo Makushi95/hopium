@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.colors {
+  margin-block: 10em;
+}
+
+.colorsGroup {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 300px;
+}
+
+.colorBlack {
+  text-align: center;
+  background-color: black;
+  padding: auto;
+}
+
+.colorBlack > p:first-child {
+  margin: 2em 0 0 0;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.colorBlack > p:last-child {
+  margin: 0;
+  line-height: 20px;
+  opacity: 60%;
+}
+
+.colorAqua {
+  background-color: #22eda6;
+}
+
+.colorAqua > p {
+  font-size: 24px;
+  line-height: 29px;
+  color: #0f0f10;
+  margin: 2em 0 0 2em;
+}
+
+.colorWhite {
+  background-color: #d9d9d9;
+}
+
+.colorWhite > p {
+  font-size: 24px;
+  line-height: 29px;
+  color: #0f0f10;
+  margin: 2em 0 0 2em;
+}

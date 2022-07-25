@@ -1,23 +1,18 @@
 .designSystem {
-  text-align: center;
+  margin-top: 6em;
 }
 
-.designSystem-text {
-  text-align: left;
-  font-size: 32px;
-  padding: 4em 6em 1em 20%;
+.designSystem > .groupText {
+  width: 1400px;
+  margin: auto;
+}
+.designSystem .groupText p {
+  margin: 1em 0;
+  min-width: 1200px;
 }
 
-.designSystem-text > p {
-  font-size: 18px;
-  max-width: 750px;
-  opacity: 48%;
-}
-
-.designSystem > img {
-  margin-bottom: 3em;
-}
-
-.designSystem > img:last-of-type {
-  margin-bottom: 7em;
+.designSystem img {
+  width: 100%;
+  margin-top: 5em;
+  margin-bottom: -7px;
 }

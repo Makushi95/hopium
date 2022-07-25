@@ -1,23 +1,17 @@
 .marketplace {
-  text-align: center;
 }
 
-.marketplaceText {
-  text-align: left;
-  font-size: 32px;
-  padding: 4em 6em 1em 20%;
+.groupText {
+  margin-top: 6em;
 }
 
-.marketplaceText > p {
-  font-size: 18px;
-  max-width: 750px;
+.groupText > p {
+  min-width: 1200px;
   opacity: 48%;
 }
 
 .marketplace > img {
+  margin-top: 3em;
   margin-bottom: 3em;
-}
-
-.marketplace > img:last-of-type {
-  margin-bottom: 7em;
+  width: 100%;
 }

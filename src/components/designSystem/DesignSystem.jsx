@@ -1,23 +1,31 @@
 import React from "react";
 import "./designSystem.css";
-import Luart002a from "../../images/Luart002a.jpg";
-import Luart003a from "../../images/Luart003a.png";
+import Design from "../../images/1 JPEG-2.png";
 
 const DesignSystem = () => {
   return (
     <div className="designSystem">
-      <div className="designSystem-text">
+      <div className="groupText">
         <h2>Design System</h2>
         <p>
-          Luart is the first gamified NFT platform that will bring a
-          seamless, all-in-one experience to the Terra Ecosystem, for
-          creators and LUNAtics alike. Providing them benefit not only
-          from participating in the expanding universe of Terra NFTs,
-          but also as a user of Luart's unique marketplace.
+          When building the company, you must choose a unique design
+          system (a single source of truth that groups all the
+          elements you will identify with). It's a set of unified
+          standards to manage the design that is needed to build the
+          brand-awareness, consistency and common language of the
+          communication. Of course, a great product is also required,
+          but there is no way forward without outstanding visuals.
+        </p>
+        <p>
+          For the Luart project, we designed a comprehensive palette
+          of brand colors, fonts, icons, and shapes that helped them
+          to gather almost 100k followers on all SM channels. In
+          addition, we designed over +5,000 components (e.g Inputs /
+          Buttons / Filters) for all three applications so that the
+          user always knows that he is on the LUART platform.
         </p>
       </div>
-      <img src={Luart002a} alt="Luart" />
-      <img src={Luart003a} alt="Luart" />
+      <img src={Design} />
       <hr />
     </div>
   );

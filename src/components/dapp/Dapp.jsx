@@ -1,25 +1,25 @@
 import React from "react";
 import "./dapp.css";
-import Luart002a from "../../images/Luart002a.jpg";
-import Luart003a from "../../images/Luart003a.png";
-import Luart004a from "../../images/Luart004a.png";
+import LeaderboardDiag from "../../images/1 JPEG-5.png";
 
 const Dapp = () => {
   return (
     <div className="dapp">
-      <div className="dappText">
+      <div className="groupText">
         <h2>Dapp</h2>
         <p>
-          Luart is the first gamified NFT platform that will bring a
-          seamless, all-in-one experience to the Terra Ecosystem, for
-          creators and LUNAtics alike. Providing them benefit not only
-          from participating in the expanding universe of Terra NFTs,
-          but also as a user of Luart's unique marketplace.
+          Moreover, when the visual brand identity was ready, the main
+          challenge was to develop the DApp that would meet the
+          requirements of the founders and the community. On top of
+          that, it had to be intuitive and easy to use.
+        </p>
+        <p>
+          Hopium designed the DApp that consists of the user's
+          dashboard, trade, staking, LQ, vesting, airdrop, DAO and
+          leaderboard features, launchpad, and the Marketplace.
         </p>
       </div>
-      <img src={Luart002a} alt="Luart" />
-      <img src={Luart003a} alt="Luart" />
-      <img src={Luart004a} alt="Luart" />
+      <img src={LeaderboardDiag} />
       <hr />
     </div>
   );

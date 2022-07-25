@@ -1,0 +1,44 @@
+.creatingProcess {
+}
+
+.groupText {
+  width: 1400px;
+  margin: auto;
+}
+
+.groupText p {
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 48%;
+  margin-bottom: 4em;
+}
+
+.creatingProcess-groupTop {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 3em;
+}
+
+.creatingProcess-item {
+  width: 450px;
+  border: 0.462131px solid #454647;
+  border-radius: 7.3941px;
+  padding: 24px;
+}
+
+.creatingProcess > img {
+  width: 100%;
+}
+
+.creatingProcess-groupBottom {
+  display: flex;
+  justify-content: center;
+  margin-block: 3em 6em;
+  margin-left: 8em;
+  gap: 2em;
+}
+
+.creatingProcess > img:last-child {
+  margin-bottom: 6em;
+}

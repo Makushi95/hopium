@@ -1,23 +1,19 @@
 .dapp {
-  text-align: center;
+  margin-top: 6em;
 }
 
-.dappText {
+.groupText {
   text-align: left;
-  font-size: 32px;
-  padding: 4em 6em 1em 20%;
 }
 
-.dappText > p {
-  font-size: 18px;
-  max-width: 750px;
+.dapp .groupText > p {
   opacity: 48%;
+  min-width: 1200px;
+  margin: 1em 0;
 }
 
 .dapp > img {
-  margin-bottom: 3em;
-}
-
-.dapp > img:last-of-type {
-  margin-bottom: 7em;
+  margin-top: 3em;
+  margin-bottom: -7px;
+  width: 100%;
 }

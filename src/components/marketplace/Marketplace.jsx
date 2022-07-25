@@ -1,26 +1,29 @@
 import React from "react";
 import "./marketplace.css";
-import Luart002a from "../../images/Luart002a.jpg";
-import Luart003a from "../../images/Luart003a.png";
-import Luart004a from "../../images/Luart004a.png";
+import MarketplaceImg from "../../images/Marketplace.png";
 
 const Marketplace = () => {
   return (
     <div className="marketplace">
-      <div className="marketplaceText">
+      <div className="groupText">
         <h2>NFT Marketplace</h2>
         <p>
-          Luart is the first gamified NFT platform that will bring a
-          seamless, all-in-one experience to the Terra Ecosystem, for
-          creators and LUNAtics alike. Providing them benefit not only
-          from participating in the expanding universe of Terra NFTs,
-          but also as a user of Luart's unique marketplace.
+          NFT Marketplace is the web2 platform with web3 features
+          where NFT degens can buy & sell the tokenized visuals. The
+          most famous examples are OpenSea for Ethereum NFTs and Tofu
+          for multichain NFTs. At the time, the Marketplace for the
+          Terra blockchain did not exist.
+        </p>
+        <p>
+          For Luart, we built an instinctive Marketplace (that btw.
+          became the largest Marketplace on the Terra network), with
+          additional elements of rewarding users with LUA Power and
+          showing the newest & trending collections. During the
+          project's operation, more than 50k NFTs were minted.{" "}
         </p>
       </div>
-      <img src={Luart002a} alt="Luart" />
-      <img src={Luart003a} alt="Luart" />
-      <img src={Luart004a} alt="Luart" />
-      <hr />
+      <img src={MarketplaceImg} alt="Luart" />
+      {/* <hr /> */}
     </div>
   );
 };
