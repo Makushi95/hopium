@@ -1,0 +1,37 @@
+.rarity {
+  margin: 0;
+  padding: 0;
+}
+
+.rarity .groupText {
+  text-align: left;
+  font-size: 32px;
+  width: 1200px;
+  margin: auto;
+  padding: 4em 0 0 0;
+}
+
+.rarity .groupText > h2 {
+  font-family: var(--ff-joyride-EXT);
+  margin: 0;
+}
+
+.rarity .groupText p {
+  font-size: 24px;
+  margin: 1em 0 0 0;
+  line-height: 32px;
+  width: 700px;
+}
+
+.rarity .groupText ul {
+  opacity: 48%;
+}
+
+.rarity .groupText a {
+  color: #fff;
+}
+
+.rarity .groupText > img {
+  margin: 3em 0 0 0;
+  padding: 0;
+}

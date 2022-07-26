@@ -1,0 +1,8 @@
+.budgetLuart {
+  text-align: center;
+}
+
+.budgetLuart p {
+  max-width: 750px;
+  margin: 2em auto;
+}

@@ -26,7 +26,7 @@ body {
   mix-blend-mode: luminosity;
 }
 
-.footerCaseStudies .footerbutton {
+.footerCaseStudies .footerButton {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
@@ -39,8 +39,8 @@ body {
   margin: 2em;
 }
 
-.footerCaseStudies button:hover,
-.footerCaseStudies button:focus {
+.footerCaseStudies .footerButton:hover,
+.footerCaseStudies .footerButton:focus {
   background-color: rgba(33, 33, 33, 0.8);
 }
 

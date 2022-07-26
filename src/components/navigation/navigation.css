@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-.navigation {
+.navigationContainer {
   z-index: 1;
   margin: 0;
   display: flex;
@@ -17,13 +17,25 @@ body {
   mix-blend-mode: luminosity;
 }
 
-.navigation img {
+.navigationContainer img {
   width: 169px;
   height: 21px;
   opacity: 0.8;
 }
 
-.navigation > a > button {
+.navMenu a:nth-child(1),
+.navMenu a:nth-child(2),
+.navMenu a:nth-child(3) {
+  color: #fff;
+  margin-right: 2em;
+  font-family: var(--ff-normal);
+  opacity: 58%;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.navigationContainer a > button {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
@@ -33,9 +45,18 @@ body {
   border-radius: 4px;
   letter-spacing: -0.02em;
   mix-blend-mode: screen;
+  cursor: pointer;
 }
 
-.navigation button:hover,
-.navigation button:focus {
+.navigationContainer a:hover {
+  opacity: 1;
+}
+
+.navigationContainer button:hover,
+.navigationContainer button:focus {
   background-color: rgba(33, 33, 33, 0.2);
+}
+
+.navigation a.active {
+  opacity: 1;
 }

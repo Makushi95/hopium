@@ -1,21 +1,21 @@
 @font-face {
   font-family: "JoyrideALT";
-  src: url(./fonts/JoyrideOTF/Joyride-ALT.otf);
+  src: url(../../fonts/JoyrideOTF/Joyride-ALT.otf);
 }
 
 @font-face {
   font-family: "JoyrideEXT";
-  src: url(./fonts/JoyrideOTF/Joyride-EXT.otf);
+  src: url(../../fonts/JoyrideOTF/Joyride-EXT.otf);
 }
 
 @font-face {
   font-family: "JoyrideSTD";
-  src: url(./fonts/JoyrideOTF/Joyride-STD.otf);
+  src: url(../../fonts/JoyrideOTF/Joyride-STD.otf);
 }
 
 @font-face {
   font-family: "JoyrideWIDE";
-  src: url(./fonts/JoyrideOTF/Joyride-WIDE.otf);
+  src: url(../../fonts/JoyrideOTF/Joyride-WIDE.otf);
 }
 
 :root {
@@ -39,4 +39,13 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+.caseStudies h1 {
+  font-size: 48px;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2em 0 3em;
+  font-family: var(--ff-joyride-EXT);
 }

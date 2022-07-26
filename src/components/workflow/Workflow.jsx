@@ -1,11 +1,11 @@
 import React from "react";
-import "./creatingProcess.css";
+import "./workflow.css";
 import NFTs from "../../images/1 JPEG-3.png";
 import DashedLine from "../../images/DashedLine.png";
 
-const CreatingProcess = () => {
+const Workflow = () => {
   return (
-    <div className="creatingProcess">
+    <div className="workflow">
       <div className="groupText">
         <h2>Creating Process</h2>
         <p>
@@ -13,8 +13,8 @@ const CreatingProcess = () => {
           final product and active aplication.
         </p>
       </div>
-      <div className="creatingProcess-groupTop">
-        <div className="creatingProcess-item itemLeft">
+      <div className="workflow-groupTop">
+        <div className="workflow-item itemLeft">
           <h4>1. UX Research</h4>
           <p>
             We did research to examine the persona and check what
@@ -23,7 +23,7 @@ const CreatingProcess = () => {
             NFT Launchpads that are in the general Blockchain market.
           </p>
         </div>
-        <div className="creatingProcess-item itemMiddle">
+        <div className="workflow-item itemMiddle">
           <h4>3. Design System</h4>
           <p>
             The Design System I created was used in three applications
@@ -32,7 +32,7 @@ const CreatingProcess = () => {
             typography architecture and color palette.
           </p>
         </div>
-        <div className="creatingProcess-item itemRight">
+        <div className="workflow-item itemRight">
           <h4>5. UX Analytics</h4>
           <p>
             Hopium Studio worked closely with a Senior React Developer
@@ -44,8 +44,8 @@ const CreatingProcess = () => {
         </div>
       </div>
       <img src={DashedLine} />
-      <div className="creatingProcess-groupBottom">
-        <div className="creatingProcess-item itemLeft">
+      <div className="workflow-groupBottom">
+        <div className="workflow-item itemLeft">
           <h4>2. Wireframe</h4>
           <p>
             Hopium Studio made the first main dApp and NFT Marketplace
@@ -54,7 +54,7 @@ const CreatingProcess = () => {
             dApp, we first had to start with the sketches themselves
           </p>
         </div>
-        <div className="creatingProcess-item itemMiddle">
+        <div className="workflow-item itemMiddle">
           <h4>4. UX&UI Design</h4>
           <p>
             We designed all three platforms using Figma. In total, the
@@ -63,7 +63,7 @@ const CreatingProcess = () => {
             Design that I prepared.
           </p>
         </div>
-        <div className="creatingProcess-item itemRight">
+        <div className="workflow-item itemRight">
           <h4>6. Testing</h4>
           <p>
             After the implementation on LIVE, together with our user,
@@ -79,4 +79,4 @@ const CreatingProcess = () => {
   );
 };
 
-export default CreatingProcess;
+export default Workflow;

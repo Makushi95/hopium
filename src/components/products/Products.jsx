@@ -27,7 +27,7 @@ const Products = () => {
             on Terra. In ~5 months, over 50k NFTs were minted on
             Luart.
           </p>
-          <Link to={"/CaseStudies"}>
+          <Link to={"/CaseStudies/Luart"}>
             <button type="button">
               View Case Study <img src={Arrow} alt="arrow" />
             </button>
@@ -45,7 +45,7 @@ const Products = () => {
             developed through a joint venture of builders, made up of
             Crypto.com executives
           </p>
-          <Link to={"/CaseStudies"}>
+          <Link to={"/CaseStudies/Croswap"}>
             <button type="button">
               View Case Study <img src={Arrow} alt="arrow" />
             </button>
@@ -70,9 +70,11 @@ const Products = () => {
             Invaders raiding the Terraverse & Crypto Twitter. Building
             a Web3 Brand and partnering with the best in the business.
           </p>
-          <button type="button" className="unavailable">
-            Coming Soon
-          </button>
+          <Link to={"/CaseStudies/TerraAliens"}>
+            <button type="button">
+              View Case Study <img src={Arrow} alt="arrow" />
+            </button>
+          </Link>
         </div>
       </div>
       <hr />

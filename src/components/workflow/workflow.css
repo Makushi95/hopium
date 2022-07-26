@@ -1,37 +1,37 @@
-.creatingProcess {
+.workflow {
 }
 
-.groupText {
+.workflow .groupText {
   width: 1400px;
   margin: auto;
 }
 
-.groupText p {
+.workflow .groupText p {
   font-size: 24px;
   line-height: 32px;
   opacity: 48%;
   margin-bottom: 4em;
 }
 
-.creatingProcess-groupTop {
+.workflow-groupTop {
   display: flex;
   justify-content: center;
   gap: 2em;
   margin-bottom: 3em;
 }
 
-.creatingProcess-item {
+.workflow-item {
   width: 450px;
   border: 0.462131px solid #454647;
   border-radius: 7.3941px;
   padding: 24px;
 }
 
-.creatingProcess > img {
+.workflow > img {
   width: 100%;
 }
 
-.creatingProcess-groupBottom {
+.workflow-groupBottom {
   display: flex;
   justify-content: center;
   margin-block: 3em 6em;
@@ -39,6 +39,6 @@
   gap: 2em;
 }
 
-.creatingProcess > img:last-child {
+.workflow > img:last-child {
   margin-bottom: 6em;
 }

@@ -12,8 +12,8 @@ const FooterCaseStudies = () => {
         <br />
         how we can help.
       </h2>
-      <Link to={"/"}>
-        <button type="button" className="footerbutton">
+      <Link to={"/GetInTouch"}>
+        <button type="button" className="footerButton">
           Get in Touch
         </button>
       </Link>

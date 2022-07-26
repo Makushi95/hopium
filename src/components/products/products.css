@@ -61,7 +61,7 @@ h2 {
 
 /* Croswap Group Section */
 
-.croswap {
+.products .croswap {
   background-image: url(../../images/bg.png);
 }
 
@@ -94,6 +94,6 @@ h2 {
 }
 
 .middleDivider:first-of-type {
-  margin-top: -90px;
+  margin-top: -50px;
   height: 120%;
 }

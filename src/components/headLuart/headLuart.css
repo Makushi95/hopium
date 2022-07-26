@@ -1,0 +1,64 @@
+.headLuart {
+  margin: 0;
+  padding: 0;
+}
+
+.headLuart .headText {
+  text-align: left;
+  font-size: 32px;
+  width: 1200px;
+  margin: auto;
+  padding: 4em 0 1em 0;
+}
+
+.headLuart .headText > h2 {
+  font-family: var(--ff-joyride-EXT);
+  margin: 0;
+}
+
+.headLuart .headText > p {
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 48%;
+  width: 700px;
+  padding-bottom: 2em;
+}
+
+.headLuart .headContainer {
+  display: flex;
+  margin-top: -12em;
+  margin-bottom: 5em;
+}
+
+.headLuart .headContainer > img {
+  margin-left: -450px;
+}
+
+.headLuart .headInfo-container {
+  display: flex;
+  text-align: left;
+}
+
+.headLuart .headGroup {
+  margin-top: 16em;
+  margin-left: -12em;
+  overflow: hidden;
+}
+
+.headLuart .headGroup > img {
+  margin-top: -20em;
+  margin-left: -14em;
+}
+
+.headLuart .groupItem {
+  margin: 0 3em;
+}
+
+.headLuart .groupItem > p {
+  margin: 0;
+}
+
+.headLuart .groupItem > p:first-child {
+  opacity: 48%;
+  margin-bottom: 1rem;
+}

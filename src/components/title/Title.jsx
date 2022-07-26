@@ -34,7 +34,7 @@ const Title = () => {
         GM! Hopium is your partner in digital visualization, bringing
         cutting-edge DApps, applications and NFTs to life.
       </p>
-      <Link to={"/"}>
+      <Link to={"/GetInTouch"}>
         <button type="button" className="buttonFilled">
           Let's build WEB3 together 🤝
         </button>

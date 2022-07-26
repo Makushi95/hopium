@@ -1,0 +1,30 @@
+.marketAnalysis {
+  margin: 0;
+  padding: 0;
+}
+
+.marketAnalysis .groupText {
+  text-align: left;
+  font-size: 32px;
+  width: 1200px;
+  margin: auto;
+  padding: 4em 0 0 0;
+}
+
+.marketAnalysis .groupText > h2 {
+  font-family: var(--ff-joyride-EXT);
+  margin: 0;
+}
+
+.marketAnalysis .groupText > p {
+  font-size: 24px;
+  margin: 1em 0 0 0;
+  line-height: 32px;
+  opacity: 48%;
+  width: 700px;
+}
+
+.marketAnalysis .groupText > img {
+  margin: 3em 0 0 0;
+  padding: 0;
+}

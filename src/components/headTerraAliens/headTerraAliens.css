@@ -1,0 +1,60 @@
+.headTerraAliens {
+  margin: 0;
+  padding: 0;
+}
+
+.headTerraAliens .headText {
+  text-align: left;
+  font-size: 32px;
+  width: 1200px;
+  margin: auto;
+  padding: 4em 0 1em 0;
+}
+
+.headTerraAliens .headText > h2 {
+  font-family: var(--ff-joyride-EXT);
+  margin: 0;
+}
+
+.headTerraAliens .headText > p {
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 48%;
+  width: 700px;
+  padding-bottom: 2em;
+}
+
+.headTerraAliens .headContainer {
+  display: flex;
+  margin-top: -10em;
+  margin-bottom: 5em;
+}
+
+.headTerraAliens .headInfo-container {
+  display: flex;
+  text-align: left;
+}
+
+.headTerraAliens .headGroup {
+  margin-top: 14em;
+  margin-left: -69vh;
+  overflow: hidden;
+}
+
+.headTerraAliens .headGroup > img {
+  margin-top: -18em;
+  margin-left: -64vh;
+}
+
+.headTerraAliens .groupItem {
+  margin: 0 3em;
+}
+
+.headTerraAliens .groupItem > p {
+  margin: 0;
+}
+
+.headTerraAliens .groupItem > p:first-child {
+  opacity: 48%;
+  margin-bottom: 1rem;
+}

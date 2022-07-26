@@ -1,11 +1,11 @@
 .marketplace {
 }
 
-.groupText {
+.marketplace .groupText {
   margin-top: 6em;
 }
 
-.groupText > p {
+.marketplace .groupText > p {
   min-width: 1200px;
   opacity: 48%;
 }

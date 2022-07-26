@@ -1,0 +1,29 @@
+.governance {
+  margin: 0;
+  padding: 0;
+}
+
+.governance .groupText {
+  text-align: left;
+  font-size: 32px;
+  width: 1200px;
+  margin: auto;
+  padding: 4em 0 1em 0;
+}
+
+.governance .groupText > h2 {
+  font-family: var(--ff-joyride-EXT);
+  margin: 0;
+}
+
+.governance .groupText > p {
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 48%;
+  width: 700px;
+  padding: 1em 0 0 0;
+}
+
+.governance .groupText > img {
+  margin-top: 3em;
+}

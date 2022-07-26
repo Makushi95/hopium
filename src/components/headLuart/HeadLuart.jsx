@@ -1,11 +1,11 @@
 import React from "react";
-import "./head.css";
+import "./headLuart.css";
 import Dashboard from "../../images/2JPEG.png";
 import Leaderboard from "../../images/1 JPEG.png";
 
 const Head = () => {
   return (
-    <div className="head">
+    <div className="headLuart">
       <div className="headText">
         <h2>LUART | gamefield MARKETPLACE IN Terra</h2>
         <p>
@@ -36,7 +36,6 @@ const Head = () => {
           <img src={Leaderboard} />
         </div>
       </div>
-
       <hr />
     </div>
   );

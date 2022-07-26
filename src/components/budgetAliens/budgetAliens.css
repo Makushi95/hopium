@@ -1,0 +1,15 @@
+.budgetAliens {
+  margin-top: 6em;
+  text-align: center;
+}
+
+.budgetAliens p {
+  max-width: 750px;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 2em auto;
+}
+
+.budgetAliens img {
+  margin-bottom: -7px;
+}
