@@ -51,7 +51,7 @@ const Rarity = () => {
           promoting the project because 1/1s are truly unique.
         </p>
         <p>
-          Check the Aliens' traits <a href="">here!</a>
+          Check the Aliens' traits <a href="/Rarity">here!</a>
         </p>
         <img src={AlienTraitsImg} />
         <img src={Blue} />

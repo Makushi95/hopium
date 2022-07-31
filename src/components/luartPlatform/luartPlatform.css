@@ -40,6 +40,8 @@ h4 {
 
 .textGroup p {
   opacity: 48%;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .textItem-left {

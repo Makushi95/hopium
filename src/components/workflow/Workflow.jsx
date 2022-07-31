@@ -7,7 +7,7 @@ const Workflow = () => {
   return (
     <div className="workflow">
       <div className="groupText">
-        <h2>Creating Process</h2>
+        <h2>Workflow</h2>
         <p>
           Step by step process of creating a template to the finishd
           final product and active aplication.

@@ -1,6 +1,13 @@
 .getInTouch {
+  margin: 0;
+  padding: 0;
 }
 
-.getInTouch form {
-  padding: 250px 0 475px 0;
+.getInTouch .wrapper {
+  height: 798px;
+  width: 100%;
+}
+
+.getInTouch iframe {
+  border-radius: 0 !important;
 }

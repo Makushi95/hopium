@@ -1,4 +1,5 @@
 .title {
+  position: relative;
   z-index: 1;
   margin: 0;
   letter-spacing: -2%;
@@ -43,7 +44,7 @@
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
-  margin: 4em 1em 245px;
+  margin: 4em 1em 238px;
 }
 
 .title > a > button.buttonTransparent:hover,
@@ -74,4 +75,12 @@ span.longCharacterALT {
 
 hr {
   border: 1px solid #292929;
+}
+
+.reflexImg {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  left: 0;
+  opacity: 15%;
 }

@@ -22,12 +22,12 @@ function App() {
           <Route path="/CaseStudies/Luart" element={<Luart />} />
           <Route path="/CaseStudies/Croswap" element={<Croswap />} />
           <Route path="/GetInTouch" element={<GetInTouch />} />
-          {/* <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Pricing" element={<Pricing />} /> */}
           <Route
             path="/CaseStudies/TerraAliens"
             element={<TerraAliens />}
           />
+          {/* <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="/Pricing" element={<Pricing />} /> */}
         </Routes>
       </div>
     </Router>

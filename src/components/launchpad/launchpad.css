@@ -1,9 +1,16 @@
-.launchpad {
+.launchpad .groupText {
+  width: 1400px;
+  margin: auto;
 }
 
-.groupText > p {
-  min-width: 1200px;
+.launchpad .groupText > p {
+  max-width: 1000px;
+  font-size: 24px;
+  line-height: 32px;
   opacity: 48%;
+}
+.launchpad .groupText > p:last-of-type {
+  margin-bottom: 3em;
 }
 
 .launchpad > img {

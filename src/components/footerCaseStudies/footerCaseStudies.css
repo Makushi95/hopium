@@ -65,11 +65,17 @@ body {
 .footerLeft > a {
   font-family: var(--ff-normal);
   font-size: 24px;
+  opacity: 0.8;
   line-height: 32px;
   color: #fff;
 }
 
+.footerLeft > a:hover {
+  opacity: 1;
+}
+
 .footerRight {
+  margin-top: 2em;
   display: flex;
   gap: 6em;
 }
@@ -82,5 +88,16 @@ body {
 }
 
 .footerRight p {
-  padding-bottom: 0.2em;
+  padding: 0.3em;
+  opacity: 0.8;
+}
+
+.blockLeft p:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.blockRight p:hover {
+  opacity: 1;
+  text-decoration: underline;
 }

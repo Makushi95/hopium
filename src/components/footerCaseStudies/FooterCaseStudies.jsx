@@ -29,18 +29,32 @@ const FooterCaseStudies = () => {
             <Link to={"/"}>
               <p>Homepage</p>
             </Link>
-            <Link to={"/"}>
-              <p>Showcase</p>
+            <Link to={"/CaseStudies"}>
+              <p>Case Studies</p>
             </Link>
-            <Link to={"/"}>
+            <Link to={"/GetInTouch"}>
               <p>Get In Touch</p>
             </Link>
           </div>
           <div className="blockRight">
-            <p>Twitter</p>
-            <p>Linkedin</p>
-            <p>Dribble</p>
-            <p>Behance</p>
+            <a
+              href="https://twitter.com/HOPIUM_Studio"
+              target="_blank"
+              rel="noopener noreferrer">
+              <p>Twitter</p>
+            </a>
+            <a
+              href="https://dribbble.com/MrStepniewski"
+              target="_blank"
+              rel="noopener noreferrer">
+              <p>Dribble</p>
+            </a>
+            <a
+              href="https://www.behance.net/HopiumStudio"
+              target="_blank"
+              rel="noopener noreferrer">
+              <p>Behance</p>
+            </a>
           </div>
         </div>
       </div>
