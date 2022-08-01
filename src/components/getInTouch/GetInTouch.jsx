@@ -8,6 +8,7 @@ const GetInTouch = () => {
       <Navigation />
       <div
         className="wrapper"
+        data-tf-opacity="0"
         data-tf-widget="JPQoitFU"
         data-tf-inline-on-mobile
         data-tf-medium="snippet"></div>

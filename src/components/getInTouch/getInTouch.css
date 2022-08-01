@@ -4,10 +4,11 @@
 }
 
 .getInTouch .wrapper {
-  height: 798px;
+  height: 805px;
   width: 100%;
 }
 
 .getInTouch iframe {
   border-radius: 0 !important;
+  margin-bottom: -6px;
 }
