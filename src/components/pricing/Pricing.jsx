@@ -4,7 +4,7 @@ import Graph from "../../images/Graph.png";
 
 const Pricing = () => {
   return (
-    <div className="pricing">
+    <div className="pricing" id="pricing">
       <h2>Pricing</h2>
       <p>
         We understand the importance of long-term planning and

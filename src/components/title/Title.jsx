@@ -39,7 +39,7 @@ const Title = () => {
       </p>
       <Link to={"/GetInTouch"}>
         <button type="button" className="buttonFilled">
-          Let's build WEB3 together 🤝
+          Let's build Web3 together 🤝
         </button>
       </Link>
       <Link to={"/CaseStudies"}>

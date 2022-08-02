@@ -11,7 +11,7 @@ const Footer = () => {
         and check how we can help you.
       </h2>
       <Link to={"/GetInTouch"}>
-        <button type="button">Let's build WEB3 together 🤝</button>
+        <button type="button">Let's build Web3 together 🤝</button>
       </Link>
       <div className="footerGroup">
         <div className="footerLeft">

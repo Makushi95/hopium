@@ -11,8 +11,8 @@ const Navigation = () => {
           <img src={HopiumLogo} alt="logo" />
         </NavLink>
         <div className="navMenu">
-          <NavLink to={"/AboutUs"}>About Us</NavLink>
-          <NavLink to={"/Pricing"}>Pricing</NavLink>
+          <a href="/#about">About Us</a>
+          <a href="#pricing">Pricing</a>
           <NavLink to={"/CaseStudies"}>Case Studies</NavLink>
           <NavLink to={"/GetInTouch"}>
             <button type="button">Get in Touch</button>

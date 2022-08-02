@@ -60,3 +60,29 @@ body {
 .navigation a.active {
   opacity: 1;
 }
+
+@media only screen and (max-width: 900px) {
+  .navigationContainer img {
+    width: 100px;
+    height: 12px;
+    opacity: 0.8;
+  }
+
+  .navigationContainer {
+    padding: 1em 2em;
+  }
+
+  .navigationContainer li {
+    text-align: left;
+    display: none;
+  }
+
+  .navigationContainer a > button {
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 2.3em;
+    mix-blend-mode: screen;
+    cursor: pointer;
+  }
+}

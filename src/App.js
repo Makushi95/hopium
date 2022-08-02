@@ -17,17 +17,15 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/CaseStudies" element={<CaseStudies />} />
-          <Route path="/CaseStudies/Luart" element={<Luart />} />
-          <Route path="/CaseStudies/Croswap" element={<Croswap />} />
-          <Route path="/GetInTouch" element={<GetInTouch />} />
+          <Route exact path="/" element={<Homepage />} />
+          <Route path="CaseStudies" element={<CaseStudies />} />
+          <Route path="CaseStudies/Luart" element={<Luart />} />
+          <Route path="CaseStudies/Croswap" element={<Croswap />} />
+          <Route path="GetInTouch" element={<GetInTouch />} />
           <Route
-            path="/CaseStudies/TerraAliens"
+            path="CaseStudies/TerraAliens"
             element={<TerraAliens />}
           />
-          {/* <Route path="/AboutUs" element={<AboutUs />} />
-            <Route path="/Pricing" element={<Pricing />} /> */}
         </Routes>
       </div>
     </Router>

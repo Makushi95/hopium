@@ -4,12 +4,12 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="panels">
         <div className="left panel">
           <p>
             So far, we have helped over 10 projects to bring their
-            visuals to the TOP level.
+            visuals to the TOP level. <i></i>
             <span className="transparentText">
               From designing the concept through many drafts, own
               upgrades, unique token rarities and ideas, to the final
