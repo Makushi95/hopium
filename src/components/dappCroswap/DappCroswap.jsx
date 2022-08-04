@@ -24,8 +24,10 @@ const DappCroswap = () => {
           CroSwap could bring their project to life and start
           gathering funding.
         </p>
-        <img src={CroswapImg1} alt="" />
-        <img src={CroswapImg2} alt="" />
+        <div className="groupImg">
+          <img src={CroswapImg2} alt="" />
+          <img src={CroswapImg1} alt="" />
+        </div>
       </div>
     </div>
   );

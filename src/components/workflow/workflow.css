@@ -2,7 +2,7 @@
 }
 
 .workflow .groupText {
-  width: 1400px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -21,7 +21,9 @@
 }
 
 .workflow-item {
-  width: 450px;
+  max-width: 380px;
+  font-size: 13px;
+  line-height: 17px;
   border: 0.462131px solid #454647;
   border-radius: 7.3941px;
   padding: 24px;
@@ -35,7 +37,7 @@
   display: flex;
   justify-content: center;
   margin-block: 3em 6em;
-  margin-left: 8em;
+  margin-left: 4em;
   gap: 2em;
 }
 

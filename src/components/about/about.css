@@ -17,15 +17,20 @@ body {
 }
 
 .panels .left {
-  margin: 13em 10em;
+  margin: 13em 0.5em 13em auto;
 }
 
 .about .panels .left > p {
   margin: 0;
   font-size: 20px;
+  max-width: 450px;
   font-family: var(--ff-normal);
   line-height: 27px;
   font-weight: 400;
+}
+
+.about .panels .left > h2 {
+  max-width: 550px;
 }
 
 span.transparentText {

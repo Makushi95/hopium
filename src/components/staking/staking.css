@@ -24,6 +24,20 @@
   padding: 1em 0 0 0;
 }
 
-.staking .groupText > img {
-  margin-top: 3em;
+.staking .groupImg {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  gap: 1.5em;
+}
+
+.staking .groupText img {
+  min-width: 48%;
+  max-width: 48%;
+}
+
+.staking .groupText img:last-of-type {
+  margin: auto;
+  min-width: 60%;
 }

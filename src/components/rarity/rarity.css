@@ -48,3 +48,21 @@
   margin: 3em 0 0 0;
   padding: 0;
 }
+
+.rarity .groupImg {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  gap: 1em;
+}
+
+.rarity .groupImg img {
+  min-width: 45%;
+  max-width: 45%;
+}
+
+.rarity .groupText .groupImg > img:last-of-type {
+  margin: auto;
+  min-width: 60%;
+}

@@ -24,12 +24,13 @@ h2 {
 }
 
 .luartRight {
-  margin: 6em 6.75em;
+  margin: 6.75em 6em auto;
 }
 
 .luartRight > p {
   font-size: 16px;
   font-weight: 400;
+  max-width: 465px;
   line-height: 22px;
 }
 
@@ -44,6 +45,7 @@ h2 {
   line-height: 22px;
   font-weight: 400;
   font-size: 16px;
+  transition: 0.2s;
   background: #212121;
   mix-blend-mode: screen;
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -71,7 +73,11 @@ h2 {
 }
 
 .croswapLeft {
-  margin: 6em 6.75em;
+  margin: 6em 6em 6.75em auto;
+}
+
+.croswapLeft > p {
+  max-width: 465px;
 }
 
 /* Terra Aliens Group Section */
@@ -81,16 +87,15 @@ h2 {
 }
 
 .terraAliensRight {
-  margin: 6em 6.75em;
+  margin: 6.75em 6em auto;
 }
 
-.terraAliensRight > button.unavailable {
+.terraAliensRight > p {
+  max-width: 465px;
+}
+
+button.unavailable {
   color: rgba(255, 255, 255, 0.16);
-}
-
-.terraAliensRight > button.unavailable:hover,
-.terraAliensRight > button.unavailable:focus {
-  background-color: #212121;
 }
 
 .middleDivider:first-of-type {

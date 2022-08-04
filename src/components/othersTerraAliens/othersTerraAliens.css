@@ -1,0 +1,17 @@
+.othersTerraAliens {
+  text-align: center;
+  margin-top: 7em;
+}
+.othersTerraAliens > h2 {
+  margin-bottom: 2em;
+}
+
+.othersImages {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+.othersImages > img {
+  width: 552px;
+}

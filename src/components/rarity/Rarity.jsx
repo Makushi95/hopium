@@ -54,9 +54,11 @@ const Rarity = () => {
           Check the Aliens' traits <a href="/Rarity">here!</a>
         </p>
         <img src={AlienTraitsImg} />
-        <img src={Blue} />
-        <img src={Cyan} />
-        <img src={Yellow} />
+        <div className="groupImg">
+          <img src={Blue} />
+          <img src={Cyan} />
+          <img src={Yellow} />
+        </div>
       </div>
     </div>
   );

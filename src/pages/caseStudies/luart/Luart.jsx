@@ -10,7 +10,7 @@ import Dapp from "../../../components/dapp/Dapp";
 import HeadLuart from "../../../components/headLuart/HeadLuart";
 import Marketplace from "../../../components/marketplace/Marketplace";
 import DesignSystem from "../../../components/designSystem/DesignSystem";
-import Others from "../../../components/others/Others";
+import OthersLuart from "../../../components/othersLuart/OthersLuart";
 import BudgetLuart from "../../../components/budgetLuart/BudgetLuart";
 import FooterCaseStudies from "../../../components/footerCaseStudies/FooterCaseStudies";
 
@@ -28,7 +28,7 @@ const Luart = () => {
       <Marketplace />
       <Launchpad />
       <BudgetLuart />
-      <Others />
+      <OthersLuart />
       <FooterCaseStudies />
     </div>
   );

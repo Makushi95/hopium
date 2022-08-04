@@ -24,6 +24,12 @@
   padding: 0;
 }
 
-.dappCroswap .headText > img {
-  margin-top: 3em;
+.dappCroswap .groupImg {
+  display: flex;
+  margin-top: 2em;
+  gap: 1.5em;
+}
+
+.dappCroswap .headText img {
+  width: 50%;
 }

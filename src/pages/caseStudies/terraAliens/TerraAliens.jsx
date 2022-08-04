@@ -5,7 +5,7 @@ import FooterCaseStudies from "../../../components/footerCaseStudies/FooterCaseS
 import HeadTerraAliens from "../../../components/headTerraAliens/HeadTerraAliens";
 import MarketAnalysis from "../../../components/marketAnalysis/MarketAnalysis";
 import Navigation from "../../../components/navigation/Navigation";
-import Others from "../../../components/others/Others";
+import OthersTerraAliens from "../../../components/othersTerraAliens/OthersTerraAliens";
 import Rarity from "../../../components/rarity/Rarity";
 
 const terraAliens = () => {
@@ -17,7 +17,7 @@ const terraAliens = () => {
       <DesignNFTs />
       <Rarity />
       <BudgetAliens />
-      <Others />
+      <OthersTerraAliens />
       <FooterCaseStudies />
     </div>
   );

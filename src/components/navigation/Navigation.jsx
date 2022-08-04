@@ -6,7 +6,7 @@ import HopiumLogo from "../../images/HopiumLogo.png";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <div className="navigationContainer">
+      <div className="navigationContainer" id="navigation">
         <NavLink to={"/"}>
           <img src={HopiumLogo} alt="logo" />
         </NavLink>

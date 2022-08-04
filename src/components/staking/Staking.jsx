@@ -26,9 +26,11 @@ const Staking = () => {
             entering the DApp to getting an allocation.
           </p>
         </p>
-        <img src={StakingImg1} alt="" />
-        <img src={StakingImg2} alt="" />
-        <img src={StakingImg3} alt="" />
+        <div className="groupImg">
+          <img src={StakingImg1} alt="" />
+          <img src={StakingImg2} alt="" />
+          <img src={StakingImg3} alt="" />
+        </div>
       </div>
     </div>
   );

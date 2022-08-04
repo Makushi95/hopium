@@ -16,9 +16,11 @@ const Footer = () => {
       <div className="footerGroup">
         <div className="footerLeft">
           <p>Email</p>
-          <a href="/">hello@hopium.studio</a>
+          <a href="mailto:hello@hopium.studio">hello@hopium.studio</a>
           <p>Telegram</p>
-          <a href="/">t.me/Barry_UX</a>
+          <a href="https://t.me/Barry_UX" target="_blank">
+            t.me/Barry_UX
+          </a>
         </div>
         <div className="footerRight">
           <div className="blockLeft">

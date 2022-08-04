@@ -23,8 +23,10 @@ const Governance = () => {
             of past proposals, number of votes, publishing dates, etc.
           </p>
         </p>
-        <img src={GovernanceImg1} alt="" />
-        <img src={GovernanceImg2} alt="" />
+        <div className="groupImg">
+          <img src={GovernanceImg1} alt="" />
+          <img src={GovernanceImg2} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -2,14 +2,11 @@ import React from "react";
 import "./title.css";
 import { Link } from "react-router-dom";
 import Navigation from "../navigation/Navigation";
-
-import Reflex from "../../images/Ellipse.png";
 import BackgroundVideo from "../../images/videoBackgroundHero.mp4";
 
 const Title = () => {
   return (
     <div className="title">
-      <img src={Reflex} className="reflexImg" alt="" />
       <video
         id="background-video"
         autoPlay

@@ -1,5 +1,5 @@
 .launchpad .groupText {
-  width: 1400px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -16,8 +16,12 @@
 .launchpad > img {
   width: 100%;
   margin-bottom: 3em;
+  max-height: 1000px;
+  object-fit: cover;
 }
 
 .launchpad > img:last-child {
   margin-bottom: 7em;
+  max-height: 450px;
+  object-fit: cover;
 }

@@ -32,6 +32,7 @@ body {
   line-height: 30px;
   background-color: #212121;
   color: #fff;
+  transition: 0.2s;
   mix-blend-mode: screen;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
@@ -66,6 +67,7 @@ body {
   font-family: var(--ff-normal);
   font-size: 24px;
   opacity: 0.8;
+  transition: 0.2s;
   line-height: 32px;
   color: #fff;
 }

@@ -2,13 +2,3 @@
   margin: 0;
   padding: 0;
 }
-
-.getInTouch .wrapper {
-  height: 805px;
-  width: 100%;
-}
-
-.getInTouch iframe {
-  border-radius: 0 !important;
-  margin-bottom: -7px;
-}

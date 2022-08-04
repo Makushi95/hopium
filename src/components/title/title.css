@@ -39,6 +39,7 @@
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
+  transition: 0.2s;
   background-color: transparent;
   mix-blend-mode: screen;
   color: #fff;
@@ -56,6 +57,7 @@
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
+  transition: 0.2s;
   background-color: #212121;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
