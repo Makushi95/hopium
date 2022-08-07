@@ -1,6 +1,6 @@
 .slider-text {
-  width: 450px;
-  min-height: 445px;
+  max-width: 450px;
+  height: 445px;
 
   color: white;
   font-weight: 400;
@@ -23,7 +23,7 @@
 
 .slider-steps-bar-progress {
   height: 3px;
-  width: 100%;
+  width: 64px;
 }
 
 #active {
@@ -37,5 +37,14 @@
   }
   to {
     transform: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .slider-text {
+    height: 400px;
+  }
+  .slider-steps-bar {
+    margin: 0 20px 15px 0;
   }
 }

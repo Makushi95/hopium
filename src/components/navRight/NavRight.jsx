@@ -45,10 +45,10 @@ const Ul = styled.ul`
 const NavRight = ({ open }) => {
   return (
     <Ul className="navRight" open={open}>
-      <NavLink to={"About"}>About Us</NavLink>
-      <NavLink to={"Pricing"}>Pricing</NavLink>
-      <NavLink to={"CaseStudies"}>Case Studies</NavLink>
-      <NavLink to={"GetInTouch"}>
+      <NavLink to="/#about">About Us</NavLink>
+      <NavLink to="/#pricing">Pricing</NavLink>
+      <NavLink to={"/CaseStudies"}>Case Studies</NavLink>
+      <NavLink to={"/GetInTouch"}>
         <button type="button">Get in Touch</button>
       </NavLink>
     </Ul>

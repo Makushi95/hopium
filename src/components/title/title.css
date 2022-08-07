@@ -98,4 +98,10 @@ hr {
   .title button.buttonTransparent {
     margin: 2em 0 7em 0;
   }
+  .title a button.buttonFilled {
+    font-size: 16px;
+  }
+  .title a button.buttonTransparent {
+    font-size: 16px;
+  }
 }

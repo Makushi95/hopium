@@ -50,3 +50,10 @@ body {
   padding: 4.5em 0 2em;
   font-family: var(--ff-joyride-EXT);
 }
+
+@media (max-width: 920px) {
+  .caseStudies h1 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+}

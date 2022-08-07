@@ -39,3 +39,15 @@ hr {
   width: 100%;
   z-index: 0;
 }
+
+@media (max-width: 920px) {
+  .pricing {
+    display: block;
+  }
+  .pricing h2 {
+    font-size: 24px;
+  }
+  .pricing img {
+    width: 100%;
+  }
+}

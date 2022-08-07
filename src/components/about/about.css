@@ -64,3 +64,21 @@ hr {
 .about .middleDivider {
   height: 112%;
 }
+
+@media (max-width: 920px) {
+  .about .panels {
+    display: block;
+  }
+  .about .panels .left {
+    margin: 0;
+    padding: 6em 2em 2em 2em;
+  }
+  .about h2 {
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .about .panels .right {
+    margin: 0;
+    padding: 1.4em;
+  }
+}
