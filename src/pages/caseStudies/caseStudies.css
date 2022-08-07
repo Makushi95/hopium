@@ -44,8 +44,9 @@ body {
 .caseStudies h1 {
   font-size: 48px;
   line-height: 47px;
+  margin: 0;
   text-transform: uppercase;
   text-align: center;
-  padding: 1em 0 2em;
+  padding: 4.5em 0 2em;
   font-family: var(--ff-joyride-EXT);
 }

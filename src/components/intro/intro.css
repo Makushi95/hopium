@@ -53,3 +53,24 @@ body {
 hr {
   border: 1px solid #292929;
 }
+
+@media (max-width: 920px) {
+  .intro img.reflexImg {
+    display: none;
+  }
+  .intro h1 {
+    padding-top: 8em;
+    font-size: 24px;
+    padding-inline: 1em;
+    line-height: 22px;
+    width: unset;
+  }
+
+  .intro h2 {
+    font-size: 20px;
+    line-height: 22px;
+    padding-block: 4em 10em;
+    padding-inline: 1em;
+    width: unset;
+  }
+}

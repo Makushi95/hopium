@@ -1,40 +1,14 @@
-body {
+.navigation {
+  display: block;
+  position: fixed;
+  background-image: url(../../images/Background.png);
+  width: 100%;
   margin: 0;
   padding: 0;
+  z-index: 6;
 }
 
-.navigationContainer {
-  z-index: 1;
-  margin: 0;
-  z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2em 6em;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.navigationContainer img {
-  width: 169px;
-  height: 21px;
-  opacity: 0.8;
-}
-
-.navMenu a:nth-child(1),
-.navMenu a:nth-child(2),
-.navMenu a:nth-child(3) {
-  color: #fff;
-  margin-right: 2em;
-  font-family: var(--ff-normal);
-  opacity: 58%;
-  font-size: 16px;
-  line-height: 22px;
-  transition: 0.2s;
-  text-decoration: none;
-}
-
-.navigationContainer a > button {
+.navigation a > button {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
@@ -43,17 +17,19 @@ body {
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
+  margin-right: 2em;
+  margin-top: 12px;
   letter-spacing: -0.02em;
   mix-blend-mode: screen;
   cursor: pointer;
 }
 
-.navigationContainer a:hover {
+.navigation a:hover {
   opacity: 1;
 }
 
-.navigationContainer button:hover,
-.navigationContainer button:focus {
+.navigation button:hover,
+.navigation button:focus {
   background-color: rgba(33, 33, 33, 0.2);
 }
 
@@ -61,28 +37,30 @@ body {
   opacity: 1;
 }
 
-@media only screen and (max-width: 900px) {
-  .navigationContainer img {
-    width: 100px;
-    height: 12px;
-    opacity: 0.8;
-  }
-
-  .navigationContainer {
-    padding: 1em 2em;
-  }
-
-  .navigationContainer li {
-    text-align: left;
-    display: none;
-  }
-
-  .navigationContainer a > button {
+@media only screen and (max-width: 920px) {
+  .navigation a > button {
     padding: 6px 12px;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 2.3em;
     mix-blend-mode: screen;
     cursor: pointer;
+  }
+
+  .navMenu {
+    flex-flow: column nowrap;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    padding-top: 3.5rem;
+    transform: 0.3s ease-in-out;
+    z-index: 100;
+  }
+
+  .logo {
+    width: 100px;
+    height: 12px;
+    opacity: 0.8;
   }
 }

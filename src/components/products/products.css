@@ -102,3 +102,28 @@ button.unavailable {
   margin-top: -50px;
   height: 120%;
 }
+
+@media (max-width: 920px) {
+  .middleDivider {
+    display: none;
+  }
+  .group {
+    display: block;
+  }
+  .group img {
+    width: 100%;
+  }
+  .group h2 {
+    font-size: 28px;
+    line-height: 24px;
+  }
+  .group button {
+    margin-block: 1em;
+  }
+  .group button img {
+    width: unset;
+  }
+  .luartRight {
+    margin: 1em 0 1em 2em;
+  }
+}
