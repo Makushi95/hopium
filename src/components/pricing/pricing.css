@@ -45,6 +45,8 @@ hr {
     display: block;
   }
   .pricing h2 {
+    margin: 0;
+    padding: 6em 0 0;
     font-size: 24px;
   }
   .pricing img {

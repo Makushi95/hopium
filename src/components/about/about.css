@@ -66,6 +66,9 @@ hr {
 }
 
 @media (max-width: 920px) {
+  .about {
+    padding-top: 4em;
+  }
   .about .panels {
     display: block;
   }
