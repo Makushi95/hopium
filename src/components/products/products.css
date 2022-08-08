@@ -125,16 +125,16 @@ button.unavailable {
   }
   .luartRight {
     margin: 0;
-    padding: 1em 0.5em 1em 2em;
+    padding: 1em 2em;
   }
 
   .croswapLeft {
     margin: 0;
-    padding: 1em 0.5em 1em 2em;
+    padding: 1em 2em;
   }
 
   .terraAliensRight {
     margin: 0;
-    padding: 1em 0.5em 1em 2em;
+    padding: 1em 2em;
   }
 }

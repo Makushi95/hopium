@@ -49,12 +49,12 @@
   margin: 4em 1em 238px;
 }
 
-.title > a > button.buttonTransparent:hover,
-.title > a > button.buttonTransparent:focus {
+.title a button.buttonTransparent:hover,
+.title a button.buttonTransparent:focus {
   background-color: rgba(33, 33, 33, 0.2);
 }
 
-.title > a > button.buttonFilled {
+.title a button.buttonFilled {
   padding: 12px 24px;
   font-size: 20px;
   line-height: 30px;
@@ -85,6 +85,7 @@ hr {
     padding-top: 10em;
     font-size: 24px;
     line-height: 22px;
+    margin-inline: 1em;
   }
 
   .title p {
@@ -92,7 +93,7 @@ hr {
     line-height: 20px;
     margin-block: 3em 5em;
     max-width: 750px;
-    margin-inline: auto;
+    margin-inline: 2em;
   }
 
   .title button.buttonTransparent {
@@ -103,5 +104,9 @@ hr {
   }
   .title a button.buttonTransparent {
     font-size: 16px;
+  }
+  .buttonGroup {
+    display: flex;
+    flex-flow: column;
   }
 }

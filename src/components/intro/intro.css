@@ -55,9 +55,6 @@ hr {
 }
 
 @media (max-width: 920px) {
-  .intro img.reflexImg {
-    display: none;
-  }
   .intro h1 {
     padding-top: 8em;
     font-size: 24px;

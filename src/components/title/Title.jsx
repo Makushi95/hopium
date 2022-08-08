@@ -13,16 +13,18 @@ const Title = () => {
         GM! Hopium is your partner in digital visualization, bringing
         cutting-edge DApps, applications and NFTs to life.
       </p>
-      <Link to={"/GetInTouch"}>
-        <button type="button" className="buttonFilled">
-          Let's build Web3 together 🤝
-        </button>
-      </Link>
-      <Link to={"/CaseStudies"}>
-        <button type="button" className="buttonTransparent">
-          Case Studies
-        </button>
-      </Link>
+      <div className="buttonGroup">
+        <Link to={"/GetInTouch"}>
+          <button type="button" className="buttonFilled">
+            Let's build Web3 together 🤝
+          </button>
+        </Link>
+        <Link to={"/CaseStudies"}>
+          <button type="button" className="buttonTransparent">
+            Case Studies
+          </button>
+        </Link>
+      </div>
       <hr />
     </div>
   );
