@@ -13,3 +13,23 @@
 .budgetAliens img {
   margin-bottom: -7px;
 }
+
+@media (max-width: 920px) {
+  .budgetAliens .budgetText {
+    width: unset;
+    margin: 0;
+    padding: 0 2em 1em 2em;
+  }
+  .budgetAliens .budgetText > h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .budgetAliens .budgetText > p {
+    font-size: 16px;
+    line-height: 20px;
+    width: unset;
+  }
+  .budgetAliens img {
+    width: 100%;
+  }
+}

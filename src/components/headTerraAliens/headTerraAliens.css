@@ -58,3 +58,31 @@
   opacity: 48%;
   margin-bottom: 8px;
 }
+
+@media (max-width: 920px) {
+  .headTerraAliens .headText {
+    width: unset;
+    margin: 0;
+    padding: 4em 1em 1em 1em;
+  }
+  .headTerraAliens .headText > h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .headTerraAliens .headText > p {
+    font-size: 16px;
+    line-height: 20px;
+    width: unset;
+  }
+  .headTerraAliens img {
+    display: none;
+  }
+
+  .headContainer .headGroup {
+    margin-left: -1em;
+    margin-top: 10em;
+  }
+  .headGroup .headInfo-container {
+    display: block;
+  }
+}

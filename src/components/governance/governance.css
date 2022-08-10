@@ -33,3 +33,28 @@
 .governance .groupText img {
   width: 50%;
 }
+
+@media (max-width: 920px) {
+  .governance .groupText {
+    width: unset;
+    margin: 0;
+    padding: 3em 1em 1em 1em;
+  }
+  .governance .groupText > h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .governance .groupText > p {
+    font-size: 16px;
+    line-height: 20px;
+    width: unset;
+  }
+
+  .governance .groupImg {
+    flex-flow: column;
+    gap: 1em;
+  }
+  .governance .groupImg img {
+    width: 100%;
+  }
+}

@@ -15,3 +15,17 @@
 .othersImages > img {
   width: 552px;
 }
+
+@media (max-width: 920px) {
+  .othersTerraAliens h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-inline: 2em;
+  }
+  .othersTerraAliens .othersImages {
+    gap: 1em;
+  }
+  .othersImages img {
+    width: 100%;
+  }
+}

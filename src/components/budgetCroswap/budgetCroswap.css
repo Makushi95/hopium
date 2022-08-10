@@ -6,3 +6,24 @@
   max-width: 750px;
   margin: 2em auto;
 }
+
+@media (max-width: 920px) {
+  .budgetCroswap .budgetText {
+    width: unset;
+    margin: 0;
+    padding: 3em 2em 1em 2em;
+  }
+  .budgetCroswap .budgetText > h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .budgetCroswap .budgetCroswap > p {
+    font-size: 16px;
+    line-height: 20px;
+    width: unset;
+  }
+
+  .budgetCroswap img {
+    width: 100%;
+  }
+}
