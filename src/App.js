@@ -11,10 +11,12 @@ import Luart from "./pages/caseStudies/luart/Luart";
 import Croswap from "./pages/caseStudies/croswap/Croswap";
 import TerraAliens from "./pages/caseStudies/terraAliens/TerraAliens";
 import GetInTouch from "./components/getInTouch/GetInTouch";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Routes>
           <Route exact path="/" element={<Homepage />} />
