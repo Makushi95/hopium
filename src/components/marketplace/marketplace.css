@@ -22,3 +22,19 @@
   max-height: 1100px;
   object-fit: cover;
 }
+
+@media (max-width: 920px) {
+  .marketplace .groupText {
+    width: unset;
+    margin: 0;
+    padding: 0 2em 1em 2em;
+  }
+  .marketplace .groupText h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .marketplace .groupText p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

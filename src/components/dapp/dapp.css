@@ -22,3 +22,22 @@
   max-height: 1000px;
   object-fit: cover;
 }
+
+@media (max-width: 920px) {
+  .dapp .groupText {
+    width: unset;
+    margin: 0;
+    padding: 0 2em 1em 2em;
+  }
+  .dapp .groupText h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .dapp .groupText p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .dapp img {
+    max-height: 250px;
+  }
+}

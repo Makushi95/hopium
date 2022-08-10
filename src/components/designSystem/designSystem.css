@@ -19,3 +19,19 @@
   margin-top: 5em;
   margin-bottom: -7px;
 }
+
+@media (max-width: 920px) {
+  .designSystem .groupText {
+    width: unset;
+    margin: 0;
+    padding: 2em 2em 1em 2em;
+  }
+  .designSystem .groupText h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .designSystem .groupText p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

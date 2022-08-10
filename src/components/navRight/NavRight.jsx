@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { NavHashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 
 const Ul = styled.ul`
@@ -28,6 +28,10 @@ const Ul = styled.ul`
     opacity: 1;
   }
 
+  a:hover {
+    opacity: 1;
+  }
+
   @media (max-width: 920px) {
     flex-flow: column nowrap;
     background-color: #111;
@@ -46,8 +50,8 @@ const Ul = styled.ul`
 const NavRight = ({ open }) => {
   return (
     <Ul className="navRight" open={open}>
-      <NavHashLink to="/#about">About Us</NavHashLink>
-      <NavHashLink to="/#pricing">Pricing</NavHashLink>
+      <HashLink to="/#about">About Us</HashLink>
+      <HashLink to="/#pricing">Pricing</HashLink>
       <NavLink to={"/CaseStudies"}>Case Studies</NavLink>
       <NavLink to={"/GetInTouch"}>
         <button type="button">Get in Touch</button>

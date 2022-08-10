@@ -17,3 +17,9 @@
 .arrows button > img {
   padding: 0 16px;
 }
+
+@media (max-width: 920px) {
+  .arrows {
+    display: none;
+  }
+}

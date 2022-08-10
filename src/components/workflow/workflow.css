@@ -44,3 +44,44 @@
 .workflow > img:last-child {
   margin-bottom: 6em;
 }
+
+@media (max-width: 920px) {
+  .workflow .groupText {
+    width: unset;
+    margin: 0;
+    padding: 4em 2em 1em 2em;
+  }
+  .workflow .groupText h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .workflow .groupText p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .workflow h4 {
+    font-size: 16px;
+  }
+  .workflow img {
+    display: none;
+  }
+  .workflow .workflow-groupTop {
+    flex-flow: column;
+    margin-top: 0;
+    margin-inline: 2em;
+  }
+  .workflow .workflow-groupBottom {
+    flex-flow: column;
+    margin-top: -65em;
+    margin-inline: 2em 2em;
+  }
+
+  .workflow-item {
+    margin-bottom: 20em;
+  }
+
+  .workflow-item:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -23,7 +23,6 @@ const Marketplace = () => {
         </p>
       </div>
       <img src={MarketplaceImg} alt="Luart" />
-      {/* <hr /> */}
     </div>
   );
 };

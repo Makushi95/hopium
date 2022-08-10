@@ -18,3 +18,16 @@
 .othersImages a {
   margin-bottom: -8px;
 }
+
+@media (max-width: 920px) {
+  .othersLuart h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .othersLuart .othersImages {
+    gap: 1em;
+  }
+  .othersImages img {
+    width: 100%;
+  }
+}

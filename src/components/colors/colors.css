@@ -52,3 +52,9 @@ body {
   color: #0f0f10;
   margin: 2em 0 0 2em;
 }
+
+@media (max-width: 920px) {
+  .colors {
+    display: none;
+  }
+}

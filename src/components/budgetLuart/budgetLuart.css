@@ -6,3 +6,22 @@
   max-width: 750px;
   margin: 2em auto;
 }
+
+@media (max-width: 920px) {
+  .budgetLuart .budgetText {
+    width: unset;
+    margin: 0;
+    padding: 0 2em 1em 2em;
+  }
+  .budgetLuart h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .workflow .groupText p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .budgetLuart img {
+    width: 100%;
+  }
+}
