@@ -45,11 +45,13 @@ h2 {
   line-height: 22px;
   font-weight: 400;
   font-size: 16px;
+  font-family: var(--ff-normal);
   transition: 0.2s;
   background: #212121;
   mix-blend-mode: screen;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .group button:hover,

@@ -1,6 +1,6 @@
 .slider-text {
   max-width: 450px;
-  height: 445px;
+  height: 400px;
 
   color: white;
   font-weight: 400;
@@ -16,13 +16,15 @@
 .slider-steps-bar {
   cursor: pointer;
   width: 64px;
-  height: 3px;
+  height: 5px;
+  border-radius: 5px;
   background-color: #6a6a6a;
   margin: 10px 15px;
 }
 
 .slider-steps-bar-progress {
-  height: 3px;
+  height: 5px;
+  border-radius: 5px;
   width: 64px;
 }
 

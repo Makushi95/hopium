@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./navigation.css";
 import styled from "styled-components";
 import HopiumLogo from "../../images/HopiumLogo.png";
@@ -13,7 +13,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em 6em;
+  padding: 1em 2em;
   font-size: 16px;
   line-height: 24px;
 
@@ -49,9 +49,9 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <Nav>
-        <NavLink to={"/"}>
+        <HashLink to={"/#hello"}>
           <img className="logo" src={HopiumLogo} alt="logo" />
-        </NavLink>
+        </HashLink>
         <Burger />
       </Nav>
       <hr />

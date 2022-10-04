@@ -6,7 +6,7 @@ import Title from "../title/Title";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hello">
       <Navigation />
       <Title />
       <video

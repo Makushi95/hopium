@@ -9,15 +9,15 @@
 }
 
 .navigation a > button {
-  padding: 12px 24px;
-  font-size: 20px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-family: var(--ff-normal);
   line-height: 30px;
   background-color: transparent;
   transition: 0.2s;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
-  margin-right: 2em;
   margin-top: 12px;
   letter-spacing: -0.02em;
   mix-blend-mode: screen;

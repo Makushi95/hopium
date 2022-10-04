@@ -74,12 +74,12 @@
   }
   .workflow .workflow-groupBottom {
     flex-flow: column;
-    margin-top: -65em;
+    margin-top: -57em;
     margin-inline: 2em 2em;
   }
 
   .workflow-item {
-    margin-bottom: 20em;
+    margin-bottom: 18em;
   }
 
   .workflow-item:last-child {

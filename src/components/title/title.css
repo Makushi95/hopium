@@ -38,6 +38,7 @@
 .title button.buttonTransparent {
   padding: 12px 24px;
   font-size: 20px;
+  font-family: var(--ff-normal);
   line-height: 30px;
   transition: 0.2s;
   background-color: transparent;
@@ -47,6 +48,7 @@
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 4px;
   margin: 4em 1em 238px;
+  cursor: pointer;
 }
 
 .title a button.buttonTransparent:hover,
@@ -54,9 +56,10 @@
   background-color: rgba(33, 33, 33, 0.2);
 }
 
-.title a button.buttonFilled {
+.title button.buttonFilled {
   padding: 12px 24px;
   font-size: 20px;
+  font-family: var(--ff-normal);
   line-height: 30px;
   transition: 0.2s;
   background-color: #212121;
@@ -65,6 +68,7 @@
   border-radius: 4px;
   letter-spacing: -0.02em;
   mix-blend-mode: screen;
+  cursor: pointer;
 }
 
 .title button.buttonFilled:hover,

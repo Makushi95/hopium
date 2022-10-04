@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 
@@ -50,9 +50,10 @@ const Ul = styled.ul`
 const NavRight = ({ open }) => {
   return (
     <Ul className="navRight" open={open}>
-      <HashLink to="/#about">About Us</HashLink>
-      <HashLink to="/#pricing">Pricing</HashLink>
       <NavLink to={"/CaseStudies"}>Case Studies</NavLink>
+      <HashLink to="/#about">About Us</HashLink>
+      <HashLink to="#pricing">Pricing</HashLink>
+
       <NavLink to={"/GetInTouch"}>
         <button type="button">Get in Touch</button>
       </NavLink>

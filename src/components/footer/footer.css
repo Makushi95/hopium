@@ -31,6 +31,7 @@ body {
 .footer button {
   padding: 12px 24px;
   font-size: 20px;
+  font-family: var(--ff-normal);
   line-height: 30px;
   background-color: #212121;
   color: #fff;
@@ -40,6 +41,7 @@ body {
   border-radius: 4px;
   letter-spacing: -0.02em;
   margin: 2em;
+  cursor: pointer;
 }
 
 .footer button:hover,
